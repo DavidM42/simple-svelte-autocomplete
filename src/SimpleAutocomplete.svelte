@@ -291,8 +291,6 @@
     if (userEnteredText === undefined || userEnteredText === null) {
       return ""
     }
-    if (
-    
 
     const textFiltered = userEnteredText.replace(/[&/\\#,+()$~%.'":*?<>{}]/g, " ").trim()
 
